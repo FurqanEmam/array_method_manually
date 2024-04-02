@@ -37,6 +37,7 @@ array[0] = newElement;
 console.log("ulitimate result after adding new element: ", array);
 
 /* 
+try to understand the fact that we are trying to create a new index at the end and push all the element to the right.
 original array while i=4: , 2,3,4,5
 array after shifting to right while i=4:  [ 2, 3, 4, 5, 5 ]
 original array while i=3: , 2,3,4,5,5
